@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Test if workflow is triggered
-      run: echo "Workflow is triggered"
+      run: echo "Workflow is triggered successfully"
       
     - uses: actions/checkout@v3
     - name: Set up Python
