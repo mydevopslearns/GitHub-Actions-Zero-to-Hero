@@ -11,6 +11,9 @@ jobs:
         python-version: [3.8, 3.9]
 
     steps:
+    - name: Test if workflow is triggered
+      run: echo "Workflow is triggered"
+      
     - uses: actions/checkout@v3
     - name: Set up Python
       uses: actions/setup-python@v2
